@@ -351,9 +351,9 @@ color: var(--light);
         text-transform: uppercase;
 } */
 .section-one {
-    background-color: rgba(46, 47, 66, 0.70); */
+    background-color: rgba(46, 47, 66, 0.70);
     padding: 188px 0;
-    max-width: 1440px;
+        max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),
             rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
