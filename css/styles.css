@@ -276,13 +276,16 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .social-networks-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
 }
 
 .social-network-list-item {
     width: 40px;
     height: 40px;
+}
+.footer-social-network-logo {
+    fill: #f4f4fd;
 }
 
 
@@ -298,7 +301,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .social-networks-link:hover,
 .social-networks-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 
