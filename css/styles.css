@@ -337,6 +337,7 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .social-networks-link:hover,
@@ -473,7 +474,7 @@ background-color: rgba(46, 47, 66, 0.70);
             border: none;
             border-radius: 4px;
             margin: 0 auto;
-            background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-one-button:hover, 
 .section-one-button:focus {
@@ -568,7 +569,7 @@ background-color: rgba(46, 47, 66, 0.70);
 }
 .section-four-icon {
     fill: var(--light);
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
