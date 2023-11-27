@@ -498,6 +498,10 @@ background-color: rgba(46, 47, 66, 0.70);
     display: flex;
     gap: 24px;
 }
+.section-four-icon {
+    fill: var(--light);
+
+}
 
 .team-card {
     background-color: #FFFFFF;
