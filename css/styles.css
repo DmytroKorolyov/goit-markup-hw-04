@@ -398,6 +398,13 @@ color: var(--light);
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.footer-social-networks-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+
 /* .footer .link {
     color: var(--primary-brand);
         color: var(--IRIS, #4D5AE5);
