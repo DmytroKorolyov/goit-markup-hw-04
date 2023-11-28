@@ -689,7 +689,9 @@ background-color: rgba(46, 47, 66, 0.70);
 .section-five-list-item-link:focus {
     border-color: #404bbf;
     color: #404bbf;
-    }
+}
+
+
 .section-five-icon {
     fill: currentColor;
 }
@@ -751,8 +753,8 @@ background-color: rgba(46, 47, 66, 0.70);
     border: none;
 }
 
-.modal-button:hover .section-five-icon,
-.modal-button:hover .section-five-icon {
+.modal-button:hover .modal-window-icon,
+.modal-button:focus .modal-window-icon {
     fill: #ffffff;
 }
 
