@@ -110,12 +110,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 .navigation .link:hover,
 .navigation .link:focus {
     color: #404bbf;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    /* font-family: Roboto; */
+    /* font-size: 16px; */
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    /* line-height: 24px; */
+    /* letter-spacing: 0.32px; */
 }
 .list .link {
     color: var(--dark);
@@ -251,6 +251,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    
 }
 
 .section-two-list-portfolio {
@@ -533,6 +534,7 @@ background-color: rgba(46, 47, 66, 0.70);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
 
 /* SECTION 3 INDEX */
@@ -633,6 +635,7 @@ background-color: rgba(46, 47, 66, 0.70);
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 8px;
 }
 .social-networks-link:hover,
 .social-networks-link:focus {
@@ -690,6 +693,10 @@ background-color: rgba(46, 47, 66, 0.70);
 .section-five-icon {
     fill: currentColor;
 }
+.section-five-icon:hover,
+.section-five-icon:focus {
+    fill: #404BBF;
+}
 
 .modal {
     position: fixed;
@@ -746,7 +753,9 @@ background-color: rgba(46, 47, 66, 0.70);
 }
 .modal-window-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    fill: black;
+    stroke: black;
+    
 }
 
 
