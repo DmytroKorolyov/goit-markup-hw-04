@@ -745,8 +745,8 @@ background-color: rgba(46, 47, 66, 0.70);
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button:hover,
-.modal-button:focus {
+.modal-button:hover .section-five-icon,
+.modal-button:focus .section-five-icon {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
